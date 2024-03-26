@@ -158,6 +158,13 @@ button {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 4px 15px -10px rgb(108, 108, 108);
+    position: relative;
+}
+
+.projectCard:hover {
+    top: -5px;
+    right: 3px;
+    cursor: pointer;
 }
 
 .cardContainer p {
