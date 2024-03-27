@@ -6,8 +6,8 @@
 
 body {
     display: grid;
-    grid-template-columns: 350px 1fr;
-    grid-template-rows: 225px 1fr;
+    grid-template-columns: 325px 1fr;
+    grid-template-rows: 185px 1fr;
     height: 100vh;
 }
 
@@ -26,7 +26,7 @@ body {
     justify-content: start;
     gap: 10px;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .sidebarLogo img {
@@ -39,7 +39,7 @@ body {
     justify-content: start;
     align-items: center;
     font-size: 1.5rem;
-    gap: 30px;
+    gap: 20px;
     margin: 0px 0px 30px 30px;
 }
 
@@ -60,7 +60,7 @@ li:hover {
     box-shadow: 0px 4px 15px -10px rgb(108, 108, 108);
     z-index: 1;
     display: grid;
-    grid-template-rows: 100px 125px;
+    grid-template-rows: 80px 100px;
     padding: 10px 30px 30px 40px;
 }
 
@@ -75,14 +75,14 @@ li:hover {
 }
 
 input {
-    height: 45px;
+    height: 35px;
     width: 600px;
     margin-right: auto; 
     margin-left: -15px;
     border-radius: 25px;
     border: none;
     background-color: rgb(231, 231, 231);
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 15px;
 }
 
@@ -103,7 +103,7 @@ input {
 }
 
 .headerBottom .userIcon {
-    height: 100px;
+    height: 80px;
 }
 
 .headerBottom p {
@@ -149,12 +149,12 @@ button {
 }
 
 .projectCard {
-    width: 550px;
-    height: 350px;
+    width: 425px;
+    height: 300px;
     background-color: rgb(246, 246, 246);
     border-radius: 10px;
     border-left: 10px solid orange;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 4px 15px -10px rgb(108, 108, 108);
@@ -175,10 +175,10 @@ button {
 
 .cardIcons {
     display: flex;
-    gap: 25px;
+    gap: 15px;
     height: 25px;
     margin-top: auto;
-    margin-left: 275px;
+    margin-left: 250px;
     align-self: flex-start;
 }
 
@@ -224,5 +224,5 @@ button {
     margin: 0px;
 }
 .trending img {
-    height: 65px;
+    height: 50px;
 }
